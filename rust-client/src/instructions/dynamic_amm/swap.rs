@@ -5,7 +5,7 @@ use anchor_lang::ToAccountMetas;
 use anchor_spl::associated_token::get_associated_token_address;
 use prog_dynamic_amm::state::Pool;
 use prog_dynamic_vault::state::Vault;
-use solana_rpc_client::rpc_client::RpcClient;
+use solana_client::rpc_client::RpcClient;
 use solana_sdk::commitment_config::CommitmentConfig;
 use solana_sdk::compute_budget::ComputeBudgetInstruction;
 use solana_sdk::instruction::Instruction;
