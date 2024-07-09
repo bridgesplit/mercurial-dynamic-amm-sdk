@@ -1,6 +1,7 @@
 [workspace]
 members = [
-    "programs/*",
+    "programs/dynamic-amm",
+    "programs/dynamic-vault",
 ]
 resolver = "2"
 

@@ -10,6 +10,12 @@ url = "https://anchor.projectserum.com"
 cluster = "localnet"
 wallet = "/home/guantian/.config/solana/id.json"
 
+[workspace]
+members = [
+    "programs/dynamic-amm",
+    "programs/dynamic-vault",
+]
+
 [scripts]
 test = "yarn run ts-mocha -p ./tsconfig.json -t 1000000 tests/**/*.ts"
 
