@@ -5,12 +5,11 @@ description = "Created with Anchor"
 edition = "2021"
 
 [features]
-default = ["cpi"]
+default = ["no-idl"]
 no-entrypoint = []
 cpi = ["no-entrypoint"]
 no-idl = []
 localnet = []
-idl-build = ["anchor-lang/idl-build", "anchor-spl/idl-build"]
 
 [lib]
 crate-type = ["cdylib", "lib"]
