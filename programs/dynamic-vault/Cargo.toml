@@ -5,7 +5,7 @@ description = "Created with Anchor"
 edition = "2021"
 
 [features]
-default = ["no-idl"]
+default = []
 no-entrypoint = []
 cpi = ["no-entrypoint"]
 no-idl = []
