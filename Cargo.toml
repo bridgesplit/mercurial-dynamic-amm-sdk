@@ -10,3 +10,6 @@ resolver = "2"
 version = "0.0.1"
 authors = ["Andrew"]
 edition = "2021"
+
+[profile.release]
+overflow-checks = true
