@@ -4,14 +4,14 @@ version = { workspace = true }
 edition = { workspace = true }
 
 [dependencies]
-anchor-lang = "0.30.0"
-anchor-spl = "0.30.0"
-anchor-client = "0.30.0"
+anchor-lang = "0.30.1"
+anchor-spl = "0.30.1"
+anchor-client = "0.30.1"
 clap = { version = "3.2.25", features = ["derive", "env"] }
-solana-sdk = "=1.18.11"
-solana-client = "=1.18.11"
-solana-version = "=1.18.11"
-solana-program = "=1.18.11"
+solana-sdk = "=1.18.17"
+solana-client = "=1.18.17"
+solana-version = "=1.18.17"
+solana-program = "=1.18.17"
 spl-associated-token-account = "2.2.0"
 anyhow = "1.0.57"
 spl-token = "3.5.0"
