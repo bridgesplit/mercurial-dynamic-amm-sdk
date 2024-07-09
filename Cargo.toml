@@ -1,8 +1,6 @@
 [workspace]
 members = [
     "programs/*",
-    "rust-client",
-    "dynamic-amm-quote"
 ]
 resolver = "2"
 
