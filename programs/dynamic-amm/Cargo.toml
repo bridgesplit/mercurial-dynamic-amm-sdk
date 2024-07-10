@@ -18,4 +18,4 @@ name = "dynamic_amm"
 
 [dependencies]
 anchor-lang = { git = "https://github.com/bridgesplit/anchor", features = ["event-cpi"] }
-anchor-spl = "0.30.1"
+anchor-spl = { git = "https://github.com/bridgesplit/anchor" }
