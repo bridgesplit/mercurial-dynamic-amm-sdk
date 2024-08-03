@@ -4,9 +4,9 @@ version = { workspace = true }
 edition = { workspace = true }
 
 [dependencies]
-anchor-lang = { git = "https://github.com/bridgesplit/anchor" }
-anchor-spl = { git = "https://github.com/bridgesplit/anchor" }
-anchor-client = { git = "https://github.com/bridgesplit/anchor" }
+anchor-lang = { version = "0.30.1"}
+anchor-spl = { version = "0.30.1"}
+anchor-client = { version = "0.30.1"}
 clap = { version = "3.2.25", features = ["derive", "env"] }
 solana-sdk = "=1.18.17"
 solana-client = "=1.18.17"
